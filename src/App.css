@@ -7,6 +7,21 @@
   pointer-events: none;
 }
 
+.ant-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ant-list-item:hover .list-button{
+  display: block;
+}
+.list-button{
+    min-width: 20px;
+    width: 20px;
+    height: 20px;
+    line-height: 17px;
+    display: none;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
